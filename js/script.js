@@ -6,7 +6,6 @@ for (i = 0; i < buttonsGet.length; i++) {
 }
 
 function show() {
-    var showAlert = buttonsGet[i].innerText;
-    alert(showAlert);
+    alert(buttonsGet[i].innerText);
     console.log(buttonsGet[i].innerText);
 }
